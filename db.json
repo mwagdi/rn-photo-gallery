@@ -1,0 +1,32 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "title": "Image 1",
+      "src": "https://cdn-images-1.medium.com/max/1500/1*dIocy2HvI_BIpziOypf8ig.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et augue ullamcorper, congue augue in, consectetur libero. Vestibulum vel ex.",
+      "comments": []
+    },
+    {
+      "id": 2,
+      "title": "Image 2",
+      "src": "https://cdn-images-1.medium.com/max/1500/1*dIocy2HvI_BIpziOypf8ig.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et augue ullamcorper, congue augue in, consectetur libero. Vestibulum vel ex.",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Image 3",
+      "src": "https://cdn-images-1.medium.com/max/1500/1*dIocy2HvI_BIpziOypf8ig.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et augue ullamcorper, congue augue in, consectetur libero. Vestibulum vel ex.",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "title": "Image 4",
+      "src": "https://cdn-images-1.medium.com/max/1500/1*dIocy2HvI_BIpziOypf8ig.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et augue ullamcorper, congue augue in, consectetur libero. Vestibulum vel ex.",
+      "comments": []
+    }
+  ]
+}

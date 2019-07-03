@@ -1,0 +1,1 @@
+export { fetchPhotos, addComment } from './photos'

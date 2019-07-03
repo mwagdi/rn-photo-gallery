@@ -5,11 +5,14 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest --watch"
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "expo": "^33.0.0",
+    "expo": "^33.0.7",
+    "expo-constants": "~5.0.1",
+    "json-server": "^0.15.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
@@ -20,7 +23,11 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.1",
-    "jest-expo": "^33.0.2"
+    "jest-expo": "^33.0.2",
+    "react-test-renderer": "^16.8.6"
+  },
+  "jest": {
+    "preset": "jest-expo"
   },
   "private": true
 }
