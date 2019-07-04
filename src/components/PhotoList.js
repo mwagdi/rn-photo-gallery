@@ -7,10 +7,10 @@ class PhotoList extends Component{
         this.props.fetchPhotos();
     }
     render(){
-        const { photoIds, photosById } = this.props;
+        const { photoIds, photosById, openModal } = this.props;
         return (
             <View>
-                {photoIds.map(id => <Photo key={id} photo={photosById[id]} />)}
+                {photoIds.map(id => <Photo key={id} photo={photosById[id]} openModal={openModal} />)}
             </View>
         )
     }

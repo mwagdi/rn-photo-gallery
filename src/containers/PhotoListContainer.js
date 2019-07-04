@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import PhotoList from './../components/PhotoList';
-import { fetchPhotos } from './../store/actions';
+import { fetchPhotos, openModal } from './../store/actions';
 
 const mapStateToProps = state => {
     const { photoIds, photosById } = state.photos
@@ -10,4 +10,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps, { fetchPhotos })(PhotoList)
+export default connect(mapStateToProps, { fetchPhotos, openModal })(PhotoList)

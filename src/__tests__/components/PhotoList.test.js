@@ -27,7 +27,12 @@ describe('<PhotoList />', () => {
             comments: []
         }
     }
-    const tree = renderer.create(<PhotoList photoIds={photoIds} photosById={photosById} />).toJSON();
+    const props = {
+        fetchPhotos: jest.fn(),
+        photoIds,
+        photosById
+    }
+    const tree = renderer.create(<PhotoList {...props} />).toJSON();
     it('has 3 children', () => {
         expect(tree.children.length).toBe(3);
     });

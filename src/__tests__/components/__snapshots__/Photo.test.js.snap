@@ -1,14 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Photo /> renders correctly 1`] = `
-<View>
-  <Text>
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
     Image Title
   </Text>
   <Image
-    src={
+    source={
       Object {
         "uri": "http://example.com/example.jpg",
+      }
+    }
+    style={
+      Object {
+        "height": 100,
+        "width": 200,
       }
     }
   />
